@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 @Entity
 @Table(name = "comment")
 public class Comment {
-	Sso(shdjds);
+
 	@Id
 	@Column(name="id",nullable = false)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

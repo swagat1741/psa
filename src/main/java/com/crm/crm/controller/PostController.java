@@ -21,7 +21,7 @@ public class PostController {
 	}
 	@PostMapping
 	public String createPost(@RequestBody Post post) {
-		//TODO: process POST request
+
 		postRepository.save(post);
 		return "SAVED";
 	}
